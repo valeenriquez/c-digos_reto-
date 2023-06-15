@@ -1214,8 +1214,8 @@ df_hogares
 View(df_hogares)
 
 # Descargar los data frame 
-write.csv(df_personas, "/Users/mariananazar/Desktop/Ciencia de Datos/df_personas.csv", row.names = FALSE)
-write.csv(df_hogares, "/Users/mariananazar/Desktop/Ciencia de Datos/df_hogares.csv", row.names = FALSE)
+write.csv(df_personas, "~/Documents/Ciencia de Datos/Reto/df_personas.csv", row.names = FALSE)
+write.csv(df_hogares, "~/Documents/Ciencia de Datos/Reto/df_hogares.csv", row.names = FALSE)
 
 
 #Bases de datos nacionales
@@ -1292,7 +1292,7 @@ df_personas_nacional <-merge(adultos_edad, no_trabajo_pea,
 df_personas_nacional
 
 # Descargar data frame 
-write.csv(df_personas_nacional, "/Users/mariananazar/Desktop/Ciencia de Datos/df_personas_nacional.csv", row.names = FALSE)
+write.csv(df_personas_nacional, "~/Documents/Ciencia de Datos/Reto/df_personas_nacional.csv", row.names = FALSE)
 
 # Nos desconectamos
 dbDisconnect(reto_db)
